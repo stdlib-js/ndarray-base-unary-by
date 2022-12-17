@@ -63,6 +63,7 @@
     "@stdlib/ndarray-base-to-array": "^0.0.x",
     "@stdlib/random-base-discrete-uniform": "^0.0.x",
     "@stdlib/random-base-randu": "^0.0.x",
+    "@stdlib/utils-nary-function": "^0.0.x",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "2.x.x"
