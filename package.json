@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-unary-by",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Apply a unary function to each element retrieved from a input ndarray according to a callback function and assign results to elements in an output ndarray.",
   "license": "Apache-2.0",
   "author": {
@@ -37,33 +37,33 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/ndarray-base-iteration-order": "^0.0.x",
-    "@stdlib/ndarray-base-minmax-view-buffer-index": "^0.0.x",
-    "@stdlib/ndarray-base-ndarraylike2object": "^0.0.x",
-    "@stdlib/ndarray-base-numel": "^0.0.x",
-    "@stdlib/ndarray-base-unary-loop-interchange-order": "^0.0.x",
-    "@stdlib/ndarray-base-unary-tiling-block-size": "^0.0.x",
-    "@stdlib/ndarray-base-vind2bind": "^0.0.x",
-    "@stdlib/types": "^0.0.x"
+    "@stdlib/ndarray-base-iteration-order": "^0.1.0",
+    "@stdlib/ndarray-base-minmax-view-buffer-index": "^0.1.0",
+    "@stdlib/ndarray-base-ndarraylike2object": "^0.1.0",
+    "@stdlib/ndarray-base-numel": "^0.1.0",
+    "@stdlib/ndarray-base-unary-loop-interchange-order": "^0.1.0",
+    "@stdlib/ndarray-base-unary-tiling-block-size": "^0.1.0",
+    "@stdlib/ndarray-base-vind2bind": "^0.1.0",
+    "@stdlib/types": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/array-filled": "^0.0.x",
-    "@stdlib/array-filled-by": "^0.0.x",
-    "@stdlib/array-typed-complex-ctors": "^0.0.x",
-    "@stdlib/bench": "^0.0.x",
-    "@stdlib/math-base-assert-is-nan": "^0.0.x",
-    "@stdlib/math-base-special-abs": "^0.0.x",
-    "@stdlib/math-base-special-cbrt": "^0.0.x",
-    "@stdlib/math-base-special-floor": "^0.0.x",
-    "@stdlib/math-base-special-identity": "^0.0.x",
-    "@stdlib/math-base-special-pow": "^0.0.x",
-    "@stdlib/math-base-special-round": "^0.0.x",
-    "@stdlib/math-base-special-sqrt": "^0.0.x",
-    "@stdlib/ndarray-base-shape2strides": "^0.0.x",
-    "@stdlib/ndarray-base-to-array": "^0.0.x",
-    "@stdlib/random-base-discrete-uniform": "^0.0.x",
-    "@stdlib/random-base-randu": "^0.0.x",
-    "@stdlib/utils-nary-function": "^0.0.x",
+    "@stdlib/array-filled": "^0.0.6",
+    "@stdlib/array-filled-by": "^0.0.2",
+    "@stdlib/array-typed-complex-ctors": "^0.0.6",
+    "@stdlib/bench": "^0.1.0",
+    "@stdlib/math-base-assert-is-nan": "^0.1.0",
+    "@stdlib/math-base-special-abs": "^0.1.0",
+    "@stdlib/math-base-special-cbrt": "^0.1.0",
+    "@stdlib/math-base-special-floor": "^0.1.0",
+    "@stdlib/math-base-special-identity": "^0.1.0",
+    "@stdlib/math-base-special-pow": "^0.1.0",
+    "@stdlib/math-base-special-round": "^0.1.0",
+    "@stdlib/math-base-special-sqrt": "^0.1.0",
+    "@stdlib/ndarray-base-shape2strides": "^0.1.0",
+    "@stdlib/ndarray-base-to-array": "^0.0.7",
+    "@stdlib/random-base-discrete-uniform": "^0.0.6",
+    "@stdlib/random-base-randu": "^0.0.8",
+    "@stdlib/utils-nary-function": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
@@ -98,7 +98,7 @@
   ],
   "__stdlib__": {},
   "funding": {
-    "type": "patreon",
-    "url": "https://www.patreon.com/athan"
+    "type": "opencollective",
+    "url": "https://opencollective.com/stdlib"
   }
 }
