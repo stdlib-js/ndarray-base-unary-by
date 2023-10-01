@@ -44,7 +44,8 @@
     "@stdlib/ndarray-base-unary-loop-interchange-order": "^0.1.0",
     "@stdlib/ndarray-base-unary-tiling-block-size": "^0.1.0",
     "@stdlib/ndarray-base-vind2bind": "^0.1.0",
-    "@stdlib/types": "^0.1.0"
+    "@stdlib/types": "^0.1.0",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.0"
   },
   "devDependencies": {
     "@stdlib/array-filled": "^0.1.0",
