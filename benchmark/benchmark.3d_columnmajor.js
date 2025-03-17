@@ -31,7 +31,7 @@ var identity = require( '@stdlib/math-base-special-identity' );
 var filledarray = require( '@stdlib/array-filled' );
 var shape2strides = require( '@stdlib/ndarray-base-shape2strides' );
 var pkg = require( './../package.json' ).name;
-var unaryBy = require( './../lib/3d.js', identity );
+var unaryBy = require( './../lib/3d.js' );
 
 
 // VARIABLES //

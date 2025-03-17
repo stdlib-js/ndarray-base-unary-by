@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-28)
+## Unreleased (2025-03-17)
 
 <section class="bug-fixes">
 
@@ -22,6 +22,8 @@
 
 <details>
 
+-   [`45a92db`](https://github.com/stdlib-js/stdlib/commit/45a92dba41673fda4e01deb4cfc74e7bcb28d50b) - **bench:** fix require expression _(by Athan Reines)_
+-   [`e0af8c4`](https://github.com/stdlib-js/stdlib/commit/e0af8c4bf522a77f3c0073acbb0b1a0679575809) - **docs:** fix description _(by Athan Reines)_
 -   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
 -   [`e2b7fb5`](https://github.com/stdlib-js/stdlib/commit/e2b7fb5df61f15ae7dbf148ec0c0412ff434b123) - **fix:** use computed order and fix strides in examples _(by Athan Reines)_
 -   [`32bbcb3`](https://github.com/stdlib-js/stdlib/commit/32bbcb3b3dae1f028fd18166ee7875a93d44d0ee) - **refactor:** update paths _(by Athan Reines)_
