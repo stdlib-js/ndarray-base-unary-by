@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-08)
+## Unreleased (2025-09-18)
 
 <section class="bug-fixes">
 
 ### Bug Fixes
 
+-   [`d066ec9`](https://github.com/stdlib-js/stdlib/commit/d066ec94f0484e735ea8025e7c9339f248c8d450) - check for row-major value
 -   [`b9e9eca`](https://github.com/stdlib-js/stdlib/commit/b9e9eca93c4611a77122090ab8e589e6ba82e47b) - use resolved order when computing loop variables
 -   [`23f47b4`](https://github.com/stdlib-js/stdlib/commit/23f47b4ef44cb8bbdc7009c403630d003af9c0a2) - use computed order
 -   [`e2b7fb5`](https://github.com/stdlib-js/stdlib/commit/e2b7fb5df61f15ae7dbf148ec0c0412ff434b123) - use computed order and fix strides in examples
@@ -24,6 +25,8 @@
 
 <details>
 
+-   [`a3e7978`](https://github.com/stdlib-js/stdlib/commit/a3e79786217bf1c9a84875203251af82cc93a222) - **docs:** update markup _(by Athan Reines)_
+-   [`d066ec9`](https://github.com/stdlib-js/stdlib/commit/d066ec94f0484e735ea8025e7c9339f248c8d450) - **fix:** check for row-major value _(by Athan Reines)_
 -   [`a616f66`](https://github.com/stdlib-js/stdlib/commit/a616f66172ea9e5ea730258daff8232f38675e39) - **refactor:** avoid duplicate computation _(by Athan Reines)_
 -   [`b9e9eca`](https://github.com/stdlib-js/stdlib/commit/b9e9eca93c4611a77122090ab8e589e6ba82e47b) - **fix:** use resolved order when computing loop variables _(by Athan Reines)_
 -   [`23f47b4`](https://github.com/stdlib-js/stdlib/commit/23f47b4ef44cb8bbdc7009c403630d003af9c0a2) - **fix:** use computed order _(by Athan Reines)_
