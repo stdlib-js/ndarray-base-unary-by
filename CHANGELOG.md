@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`42c6213`](https://github.com/stdlib-js/stdlib/commit/42c6213a4a37afe7b71ed391eb67f63b3fe3f96d) - **docs:** fix `real`/`imag` import in `ndarray/base/unary-by` [(#12060)](https://github.com/stdlib-js/stdlib/pull/12060) _(by Karan Anand)_
 -   [`c61a3e6`](https://github.com/stdlib-js/stdlib/commit/c61a3e6bbdddc67fc7b384e9bf283a34b75fd38f) - **docs:** improve doctests for complex number typed arrays in `ndarray/base/unary-by` [(#12047)](https://github.com/stdlib-js/stdlib/pull/12047) _(by Karan Anand)_
 
 </details>
