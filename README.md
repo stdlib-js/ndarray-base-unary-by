@@ -41,14 +41,32 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ndarray-base-unary-by
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import unaryBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-by@deno/mod.js';
+var unaryBy = require( '@stdlib/ndarray-base-unary-by' );
 ```
 
 #### unaryBy( arrays, fcn, clbk\[, thisArg] )
@@ -58,7 +76,7 @@ Applies a unary function to each element retrieved from an input ndarray accordi
 <!-- eslint-disable max-len -->
 
 ```javascript
-import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
+var Float64Array = require( '@stdlib/array-float64' );
 
 function scale( x ) {
     return x * 10.0;
@@ -134,7 +152,7 @@ To set the callback execution context, provide a `thisArg`.
 <!-- eslint-disable max-len -->
 
 ```javascript
-import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
+var Float64Array = require( '@stdlib/array-float64' );
 
 function scale( x ) {
     return x * 10.0;
@@ -203,7 +221,7 @@ var cnt = context.count;
     <!-- eslint-disable max-len -->
 
     ```javascript
-    import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
+    var Float64Array = require( '@stdlib/array-float64' );
 
     function scale( x ) {
         return x * 10.0;
@@ -264,15 +282,15 @@ var cnt = context.count;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
-import filledarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled@deno/mod.js';
-import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
-import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@deno/mod.js';
-import sqrt from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sqrt@deno/mod.js';
-import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@deno/mod.js';
-import shape2strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@deno/mod.js';
-import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to-array@deno/mod.js';
-import unaryBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-by@deno/mod.js';
+var discreteUniform = require( '@stdlib/random-base-discrete-uniform' ).factory;
+var filledarray = require( '@stdlib/array-filled' );
+var filledarrayBy = require( '@stdlib/array-filled-by' );
+var abs = require( '@stdlib/math-base-special-abs' );
+var sqrt = require( '@stdlib/math-base-special-sqrt' );
+var naryFunction = require( '@stdlib/utils-nary-function' );
+var shape2strides = require( '@stdlib/ndarray-base-shape2strides' );
+var ndarray2array = require( '@stdlib/ndarray-base-to-array' );
+var unaryBy = require( '@stdlib/ndarray-base-unary-by' );
 
 var N = 10;
 var x = {
@@ -316,7 +334,7 @@ console.log( ndarray2array( y.data, y.shape, y.strides, y.offset, y.order ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
